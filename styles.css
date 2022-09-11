@@ -1,0 +1,87 @@
+*, *::before, *::after {
+       box-sizing: border-box;
+}
+body {
+       color: #0f141e;
+       margin: auto;
+       font-family: 'Inter', sans-serif;
+       font-size: 8px; 
+       line-height: 8px; 
+}
+
+.contact h2{
+       text-align: center;
+       margin: 10px;
+}
+
+a {
+      text-decoration: none;
+      color: black;
+}
+
+h1, h2 {
+       font-family: Arial, sans-serif;
+}
+
+p {
+       font-family: Verdana, Tahoma, Arial, sans-serif;
+}
+
+.avatar{
+    width: 230px;
+    margin-left: 8%;
+    border-radius: 50%;
+}
+
+.conteiner {
+       max-width: 400px;    
+       height: 100%;
+       padding: 10px 50px;
+       margin: auto;
+       background-image: url(fon.jpg);
+       background-size: 100%;
+}
+.name{
+       line-height: 5px;
+       font-size: 7px;
+       font-size: 16px; 
+}
+.inst {
+       width: 12px;  
+
+}
+.tel {
+       width: 12px;
+}
+.vk {
+       width: 12px;
+}
+
+.contact {
+       margin:0 30px;
+       border-top: 1px solid seagreen;
+       margin-bottom: 20px;
+}
+.box {
+       display: flex;
+}
+.xob {
+       margin-right: 50px;
+       margin-left: 30px;
+}
+
+.xob h2 {
+       text-align: center;
+}
+.vin {
+       text-align: center;
+}
+
+.laptop, .ping-pong, .books, .airpods {
+       width: 50px;
+}
+.educ {
+       text-align: center;
+}
+
+
